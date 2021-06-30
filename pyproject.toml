@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "asapp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Create desktop entries for running websites in app mode."
 authors = ["Blake Smith <blakeinvictoria@gmail.com>"]
 license = "GPL"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.6"

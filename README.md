@@ -1,4 +1,5 @@
-# as_app
+# asapp
+
 Open websites in Chromium's app mode.
 
 ## Motivation
@@ -9,6 +10,14 @@ is a good substitute for this.
 
 ## Installation
 
+### PyPi
+
+```shell script
+pip install asapp
+```
+
+### Git Clone
+
 ```shell script
 git clone https://github.com/BlakeASmith/as_app.git
 pip install . 
@@ -16,8 +25,19 @@ pip install .
 
 ## Usage
 
+### Open Websites
+
 Launch a website in it's own window, without any borders or browser options. 
 
 ```shell script
-asapp https://duckduckgo.com
+asapp open https://duckduckgo.com
 ```
+
+### Create a Desktop Entry
+
+```shell script
+asapp shortcut --name DuckDuckGo https://duckduckgo.com
+```
+
+This will add a `.desktop` file to the `~/.local/share/applications/` folder, causing
+`DuckDuckGo` to appear in your app launcher of choice!
